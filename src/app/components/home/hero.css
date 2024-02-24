@@ -1,0 +1,10 @@
+.imageContainer {
+    position: relative;
+}
+
+.gradientOverlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, rgba(0,0,0,0.6), transparent); /* Adjust gradient colors and opacity as needed */
+    z-index: 1; /* Ensure the overlay is above the image */
+}
